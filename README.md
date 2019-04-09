@@ -10,8 +10,8 @@ instructions on how make it work are provided below:
 
 ### Mac OS X
 
-1. Install [XQuartz](https://www.xquartz.org/) or x11 window manager
-   (via Homebrew):  
+1. Install [XQuartz](https://www.xquartz.org/) or standalone 
+   x11 window manager (via Homebrew):  
 
     ```
     brew install Caskroom/cask/xquartz 
