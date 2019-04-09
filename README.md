@@ -14,13 +14,13 @@ instructions on how make it work are provided below:
    x11 window manager (via Homebrew):  
 
     ```
-    brew install Caskroom/cask/xquartz 
+    brew install xquartz 
     ```
 2. After that, you will have to **re-install all packages** you have previously 
    installed via opam. For instance, first try
 
    ```
-   ocaml switch
+   opam switch
    ```
 
    If your version is, for instance `4.07.1`, next run
@@ -30,6 +30,8 @@ instructions on how make it work are provided below:
    ```
 
    It will take a while, as it re-builds all packages from scratch.
+   
+   The `graphics` package has been checked to work with OCaml `4.06.1` and `4.07.1`.
 
 3. Next, execute
 
@@ -80,8 +82,8 @@ and follow the instructions on the screen.
 ## More examples
 
 You can find more examples of working with graphics in OCaml by
-folloing
-[this link](https://caml.inria.fr/pub/docs/oreilly-book/html/book-ora048.html).
+following
+[this link](https://caml.inria.fr/pub/docs/oreilly-book/html/book-ora048.html) and by checking [this manuscript](https://caml.inria.fr/pub/docs/oreilly-book/pdf/chap5.pdf).
 
 
 
