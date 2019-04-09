@@ -80,8 +80,8 @@ and follow the instructions on the screen.
 ## More examples
 
 You can find more examples of working with graphics in OCaml by
-folloing
-[this link](https://caml.inria.fr/pub/docs/oreilly-book/html/book-ora048.html).
+following
+[this link](https://caml.inria.fr/pub/docs/oreilly-book/html/book-ora048.html) and by checking [this manuscript](https://caml.inria.fr/pub/docs/oreilly-book/pdf/chap5.pdf).
 
 
 
