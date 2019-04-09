@@ -50,7 +50,7 @@ let draw_text s x y =
   draw_string s
 
 let mouth = 
-  [(40, 80); (380, 80); (380, 100); (40, 100)] |> Array.of_list
+  [(40, 100); (70, 80); (350, 80); (380, 100)] |> Array.of_list
 
 let tongue = 
   [(250, 79); (250, 30); (300, 30); (300, 79)]|> Array.of_list
