@@ -20,7 +20,7 @@ instructions on how make it work are provided below:
    installed via opam. For instance, first try
 
    ```
-   ocaml switch
+   opam switch
    ```
 
    If your version is, for instance `4.07.1`, next run
@@ -30,6 +30,8 @@ instructions on how make it work are provided below:
    ```
 
    It will take a while, as it re-builds all packages from scratch.
+   
+   The `graphics` packages has been checked to work with OCaml `4.06.1` and `4.07.1`.
 
 3. Next, execute
 
