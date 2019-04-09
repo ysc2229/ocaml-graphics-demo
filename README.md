@@ -16,20 +16,20 @@ instructions on how make it work are provided below:
     ```
     brew install Caskroom/cask/xquartz 
     ```
-2. After that, you will have to re-install all packages you installed
-   via opam. For instance, first try
+2. After that, you will have to **re-install all packages** you have previously 
+   installed via opam. For instance, first try
 
    ```
    ocaml switch
    ```
 
-   If it is, for instance `4.07.1`, next run
+   If your version is, for instance `4.07.1`, next run
 
    ```
    opam switch reinstall 4.07.1
    ```
 
-   It will take a while, as it reinstalls all packages from scratch.
+   It will take a while, as it re-builds all packages from scratch.
 
 3. Next, execute
 
