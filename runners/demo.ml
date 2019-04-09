@@ -110,7 +110,7 @@ let rec wait_until_q_pressed t =
   else wait_until_q_pressed t
 
 let () =
-  open_graph " 400x500";
+  open_graph "";
   draw_face ();
   draw_text tease_text 130 420;
   draw_text exit_text 100 400;
