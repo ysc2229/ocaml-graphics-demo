@@ -72,9 +72,10 @@ make clean && make
 To run the test application, after building the project execute
 
 ```
-bin/demo
+./bin/demo
 ```
 
+and follow the instructions on the screen.
 
 
 
