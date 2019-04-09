@@ -31,7 +31,7 @@ instructions on how make it work are provided below:
 
    It will take a while, as it re-builds all packages from scratch.
    
-   The `graphics` packages has been checked to work with OCaml `4.06.1` and `4.07.1`.
+   The `graphics` package has been checked to work with OCaml `4.06.1` and `4.07.1`.
 
 3. Next, execute
 
