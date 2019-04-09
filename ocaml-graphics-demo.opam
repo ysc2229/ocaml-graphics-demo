@@ -1,0 +1,28 @@
+opam-version: "2.0"
+version: "1.0"
+maintainer: "ilya.sergey@yale-nus.edu.sc"
+homepage: "https://ilyasergey.net"
+dev-repo: "git://github.com:ilyasergey/ocaml-graphics-demo.git"
+bug-reports: "https://github.com/ilyasergey/ocaml-graphics-demo/issues"
+license: "MIT"
+build: [
+  ["dune" "build" "-p" name "-j" jobs]
+]
+
+install: [ make ]
+depends: [
+
+ ]
+
+description: "Demo for using OCaml Graphic interface"
+
+tags: [
+  "category:Computer Science/Education/Basic Algorithms and Data Structures"
+  "keyword:tutorial"
+  "keyword:graphics"
+]
+
+authors: [
+  "Ilya Sergey <ilya.sergey@yale-nus.edu.sg>"
+]
+
