@@ -57,9 +57,15 @@ let tongue =
 
 let left_eye = 
   [(60, 260); (100, 260); (100, 300); (60, 300)] |> Array.of_list
+let left_iris = 
+  [(70, 260); (90, 260); (90, 280); (70, 280)] |> Array.of_list
+
 
 let right_eye = 
   [(320, 260); (360, 260); (360, 300); (320, 300)] |> Array.of_list
+let right_iris = 
+  [(330, 260); (350, 260); (350, 280); (330, 280)] |> Array.of_list
+
 
 let nose = 
   [(160, 150); (240, 150); (240, 210); (160, 210)] |> Array.of_list
@@ -71,17 +77,22 @@ let draw_face _ =
   (* Colors *)
   set_color Graphics.magenta;
   fill_poly nose;
-  set_color Graphics.black
+  set_color Graphics.black;
+  fill_poly left_iris;
+  fill_poly right_iris
 
 let draw_tongue _ = 
   set_color Graphics.red;
   fill_poly tongue;
+  set_color Graphics.white;
+  fill_poly right_iris;
   set_color Graphics.black
 
 let remove_tongue _ = 
   set_color Graphics.white;
   fill_poly tongue;
-  set_color Graphics.black
+  set_color Graphics.black;
+  fill_poly right_iris
 
 
 let tease_text = "Press t to tease."
