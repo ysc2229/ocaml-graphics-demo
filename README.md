@@ -14,7 +14,7 @@ instructions on how make it work are provided below:
    x11 window manager (via Homebrew):  
 
     ```
-    brew install Caskroom/cask/xquartz 
+    brew install xquartz 
     ```
 2. After that, you will have to **re-install all packages** you have previously 
    installed via opam. For instance, first try
