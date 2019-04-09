@@ -77,7 +77,11 @@ To run the test application, after building the project execute
 
 and follow the instructions on the screen.
 
+## More examples
 
+You can find more examples of working with graphics in OCaml by
+folloing
+[this link](https://caml.inria.fr/pub/docs/oreilly-book/html/book-ora048.html).
 
 
 
