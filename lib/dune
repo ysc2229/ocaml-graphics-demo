@@ -2,7 +2,5 @@
  (name ocaml_graphics_demo)
  (public_name ocaml-graphics-demo)
   (wrapped false)
-  (inline_tests)                
-  (preprocess (pps ppx_inline_test ppx_expect))
   (libraries graphics)
   (synopsis "Example of using the graphics package in OCaml"))

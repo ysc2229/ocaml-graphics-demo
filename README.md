@@ -10,12 +10,8 @@ instructions on how make it work are provided below:
 
 ### Mac OS X
 
-1. Install [XQuartz](https://www.xquartz.org/) or standalone 
-   x11 window manager (via Homebrew):  
+1. Install [XQuartz](https://www.xquartz.org/). 
 
-    ```
-    brew install xquartz 
-    ```
 2. After that, you will have to **re-install all packages** you have previously 
    installed via opam. For instance, first try
 
@@ -42,8 +38,8 @@ instructions on how make it work are provided below:
 
    After that you should be able to build the project.
 
-4. You might need to install the `ysc2229-part-one` and
-   `ysc2229-part-two` libraries manually from the repositories (using
+4. You might need to install `core`, `ysc2229-part-one` the `batteries` via opam, as well as `ysc2229-part-one` and
+   `ysc2229-part-two` - manually from the repositories (using
    `opam install .`).
  
 
