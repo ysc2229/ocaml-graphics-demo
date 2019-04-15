@@ -12,7 +12,9 @@ instructions on how make it work are provided below:
 
 1. Install [XQuartz](https://www.xquartz.org/). 
 
-2. After that, you will have to **re-install all packages** you have previously 
+2. Log-out from the system and log-in again.
+
+3. After that, you will have to **re-install all packages** you have previously 
    installed via opam. For instance, first try
 
    ```
@@ -29,7 +31,7 @@ instructions on how make it work are provided below:
    
    The `graphics` package has been checked to work with OCaml `4.06.1` and `4.07.1`.
 
-3. Next, execute
+4. Next, execute
 
    ```
    opam update; opam upgrade 
@@ -38,7 +40,7 @@ instructions on how make it work are provided below:
 
    After that you should be able to build the project.
 
-4. You might need to install `core`, `ysc2229-part-one` the `batteries` via opam, as well as `ysc2229-part-one` and
+5. You might need to install `core`, `ysc2229-part-one` the `batteries` via opam, as well as `ysc2229-part-one` and
    `ysc2229-part-two` - manually from the repositories (using
    `opam install .`).
  
