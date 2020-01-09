@@ -20,13 +20,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 *)
 
+open Core
 
-(* Grawing a rectangle *)
-let draw_rect x0 y0 w h = 
-  let (a,b) = Graphics.current_point() 
-  and x1 = x0+w and y1 = y0+h 
-  in
-  Graphics.moveto x0 y0; 
-  Graphics.lineto x0 y1; Graphics.lineto x1 y1;  
-  Graphics.lineto x1 y0; Graphics.lineto x0 y0; 
-  Graphics.moveto a b
+let%test _ = 1 + 1 = 2
+       
