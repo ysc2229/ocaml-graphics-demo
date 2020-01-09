@@ -20,8 +20,9 @@ and follow the instructions on the screen.
 
 ## Installing OCaml Graphics
 
-If you followed the instructions for installin the OCaml infrastructure on your system, the project should be working. Otherwise, follow the instructions below.
-
+If you followed the initially provided instructions for installing the
+OCaml infrastructure on your operating system, the project should be
+working. Otherwise, follow the instructions below.
 
 This project relies on OCaml's `graphics` package, which is somewhat
 non-trivial to install, due to native system dependencies. Some
