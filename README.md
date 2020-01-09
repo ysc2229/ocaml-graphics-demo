@@ -2,7 +2,26 @@
 
 A simple project showcasing the `graphics` package of OCaml
 
-## Setup
+## Building and Running This Project
+
+To build, run
+
+```
+make clean && make
+```
+
+To run the test application, after building the project execute
+
+```
+./bin/demo
+```
+
+and follow the instructions on the screen.
+
+## Installing OCaml Graphics
+
+If you followed the instructions for installin the OCaml infrastructure on your system, the project should be working. Otherwise, follow the instructions below.
+
 
 This project relies on OCaml's `graphics` package, which is somewhat
 non-trivial to install, due to native system dependencies. Some
@@ -34,7 +53,7 @@ instructions on how make it work are provided below:
 4. Next, execute
 
    ```
-   opam update; opam upgrade 
+   opam update; opam upgrade
    opam install graphics
    ```
 
@@ -52,30 +71,13 @@ instructions on how make it work are provided below:
 
 2. Proceed to Step 3 for Mac OS X (above).
 
-
-### Windows
+### Windows (Cygwin)
 
 1. As it seems to be the case, x11 graphic interface is included into
    Cygwin (https://x.cygwin.com/).
 
 2. Proceed to Step 3 for Mac OS X (above).
 
-
-## Building and running this project
-
-To build, run
-
-```
-make clean && make
-```
-
-To run the test application, after building the project execute
-
-```
-./bin/demo
-```
-
-and follow the instructions on the screen.
 
 ## More examples
 
