@@ -45,6 +45,7 @@ cv/*.out
 *.pdf 
 *.dot
 *.*~
+**/#*#
 
 .DS_Store
 
