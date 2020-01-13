@@ -60,8 +60,7 @@ instructions on how make it work are provided below:
 
    After that you should be able to build the project.
 
-5. You might need to install `core`, `ysc2229-part-one` the `batteries` via opam, as well as `ysc2229-part-one` and
-   `ysc2229-part-two` - manually from the repositories (using
+5. You might need to install `core`, and `batteries` via `opam` (using
    `opam install .`).
  
 

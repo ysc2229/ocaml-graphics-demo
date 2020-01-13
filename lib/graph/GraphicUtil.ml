@@ -21,7 +21,7 @@ SOFTWARE.
 *)
 
 open Core
-   
+
 (* Grawing a rectangle *)
 let draw_rect x0 y0 w h = 
   let (a,b) = Graphics.current_point() 
