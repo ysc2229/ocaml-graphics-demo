@@ -41,15 +41,16 @@ instructions on how make it work are provided below:
    opam switch
    ```
 
-   If your version is, for instance `4.07.1`, next run
+   If your version is, for instance `4.10.0`, next run
 
    ```
-   opam switch reinstall 4.07.1
+   opam switch reinstall 4.10.0
    ```
 
    It will take a while, as it re-builds all packages from scratch.
    
-   The `graphics` package has been checked to work with OCaml `4.06.1` and `4.07.1`.
+   The `graphics` package has been checked to work with OCaml
+   `4.06.1`, `4.07.1`, and `4.10.0`.
 
 4. Next, execute
 
