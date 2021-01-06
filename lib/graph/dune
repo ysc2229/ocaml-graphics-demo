@@ -6,3 +6,6 @@
   (inline_tests)
   (libraries core graphics)
   (synopsis "Example of using the graphics package in OCaml"))
+  
+(env
+ (release (inline_tests enabled)))
